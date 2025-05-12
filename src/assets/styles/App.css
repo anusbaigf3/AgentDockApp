@@ -1,0 +1,292 @@
+ul {
+  list-style: none;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+
+.navbar h1 {
+  margin-bottom: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 1.5rem;
+}
+
+.navbar .user-name {
+  margin-right: 0.5rem;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: var(--spacing-lg);
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: var(--spacing-lg);
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--spacing-lg);
+}
+
+.footer-links a {
+  color: white;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast);
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.loader {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid var(--primary-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Alert */
+.alert-container {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  z-index: 99;
+  max-width: 400px;
+  width: 100%;
+}
+
+.alert {
+  padding: 1rem;
+  border-radius: var(--border-radius-md);
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-md);
+  animation: slideInRight 0.3s ease-in-out;
+}
+
+.alert-danger {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.alert-warning {
+  background-color: var(--warning-color);
+  color: white;
+}
+
+.alert-info {
+  background-color: var(--info-color);
+  color: white;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Empty States */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.empty-state i {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-light);
+}
+
+.empty-state h3 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.empty-state.compact {
+  padding: var(--spacing-lg);
+}
+
+.empty-state.compact p {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Auth pages */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: var(--spacing-lg);
+}
+
+.auth-card {
+  max-width: 450px;
+  width: 100%;
+  padding: var(--spacing-xl);
+  background-color: var(--card-background);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-lg);
+}
+
+.auth-card h1 {
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.auth-redirect {
+  margin-top: var(--spacing-lg);
+  text-align: center;
+}
+
+/* Not Found */
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.not-found-content h1 {
+  font-size: 6rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.sidebar-menu {
+  margin-left: 80px;
+  display: flex;
+  list-style: none;
+  column-gap: 30px;
+}
+
+.user-details {
+  margin-left: 80px;
+}
+
+
+.welcome-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stats-card {
+  display: flex;
+  text-align: center;
+  gap: 7px;
+}
+
+.stats-content {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hero-actions, .agent-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.activity-list {
+  list-style: none;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activity-content {
+  margin-bottom: 15px;
+}
+
+.entity-item a {
+  display: flex;
+  gap: 20px;
+}

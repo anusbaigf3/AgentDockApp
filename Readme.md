@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/6656f003-e6c8-44aa-9b90-a568edcbea0e)# AgentDock Frontend
-
 Frontend application for AgentDock - A Model Context Protocol (MCP) server with a clean UI to register, manage, and interact with intelligent agents.
 
 ## Features
@@ -116,9 +114,11 @@ agentdock-app/
     ![image](https://github.com/user-attachments/assets/9ae5a0ae-3ffd-4452-8767-f037385230a5)
     ![image](https://github.com/user-attachments/assets/15cf13bc-af2a-457f-9a54-36525d67e209)
 
-13. 
-
-
+13. Agent Conversation Page
+    ![image](https://github.com/user-attachments/assets/a4c13d4d-3886-4c9a-aff8-be840cba29fa)
+    ![image](https://github.com/user-attachments/assets/53ff7523-a5d5-4e3d-acf9-b87336e8089f)
+    ![image](https://github.com/user-attachments/assets/2f6b241e-e480-408a-a418-2f3077936500)
+    ![image](https://github.com/user-attachments/assets/78ffd62a-5b7e-4b45-94d3-ef6d646dd70d)
 
 ## License
 

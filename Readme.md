@@ -1,4 +1,4 @@
-# AgentDock Frontend
+![image](https://github.com/user-attachments/assets/6656f003-e6c8-44aa-9b90-a568edcbea0e)# AgentDock Frontend
 
 Frontend application for AgentDock - A Model Context Protocol (MCP) server with a clean UI to register, manage, and interact with intelligent agents.
 
@@ -83,6 +83,42 @@ agentdock-app/
 │   └── index.jsx          # Entry point
 └── package.json           # Dependencies and scripts
 ```
+
+## App UI  
+1. Home Page
+   ![image](https://github.com/user-attachments/assets/41425379-b23b-47ff-bccd-c439aad67269)
+
+3. Register Page
+   ![image](https://github.com/user-attachments/assets/06c58477-34dd-4acb-9257-f8c1c7b6d51d)
+
+4. Login Page
+   ![image](https://github.com/user-attachments/assets/58c679bc-7ee2-4ec1-a1f4-3a439510a638)
+
+5. Dashboard Page
+   ![image](https://github.com/user-attachments/assets/538c980d-afc7-40be-834e-2369ca796d92)
+   ![image](https://github.com/user-attachments/assets/95315d42-b95f-444d-9ec9-d8b5b34b3055)
+   ![image](https://github.com/user-attachments/assets/57d999d3-ea6e-415a-a913-1d345da7f9d4)
+
+6. Create Agent
+   ![image](https://github.com/user-attachments/assets/966ad8af-8958-40b3-90fc-ad5936933119)
+   ![image](https://github.com/user-attachments/assets/780c0f94-737b-44d3-a18c-6ca35bffbb2a)
+
+8. Agent Management Page
+   ![image](https://github.com/user-attachments/assets/04f5b007-d4b8-48f7-b045-e77d29c1f76a)
+
+10. Register Tool Page
+   ![image](https://github.com/user-attachments/assets/798685d7-b747-4643-b90f-127dc11347e6)
+
+11. Tool Management Page
+    ![image](https://github.com/user-attachments/assets/2659d412-37af-4d1b-8f67-980d8cf6c6f8)
+
+12. Agent Config & Activity Page 
+    ![image](https://github.com/user-attachments/assets/9ae5a0ae-3ffd-4452-8767-f037385230a5)
+    ![image](https://github.com/user-attachments/assets/15cf13bc-af2a-457f-9a54-36525d67e209)
+
+13. 
+
+
 
 ## License
 
